@@ -1,0 +1,44 @@
+.parent {
+  background-color: rgb(134, 187, 175);
+  /* background-image: url("bg.jpg") repeat 0 0; */
+}
+.card {
+  background-color: coral;
+  height: 200px;
+  width: 400px;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 7px 7px 3px rgba(150, 100, 80, 0.5);
+}
+
+close-btn {
+  position: relative;
+  background: red;
+  color: white;
+  top: 0px;
+  right: 0px;
+}
+
+.content {
+  text-align: center;
+  /* flex-direction: column; */
+}
+
+.quote {
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.author {
+  font-family: Georgia;
+  font-style: italic;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
